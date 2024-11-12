@@ -1,7 +1,7 @@
 // src/App.tsx
 import React, { useEffect, useState } from 'react'; // Importa React y hooks necesarios
 import axios from 'axios'; // Importa Axios para manejar peticiones HTTP
-import { Estudiante } from './Types'; // Importa la interfaz Estudiante
+import { Estudiante } from './types'; // Importa la interfaz Estudiante
 import EstudianteForm from './components/EstudianteForm'; // Importa el componente de formulario
 import EstudianteTable from './components//EstudianteTable'; // Importa el componente de tabla
 

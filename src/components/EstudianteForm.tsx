@@ -1,6 +1,6 @@
 // src/components/EstudianteForm.tsx
 import React, { useState, useEffect } from 'react'; // Importa React y hooks necesarios
-import { Estudiante } from '../Types'; // Importa la interfaz Estudiante
+import { Estudiante } from '../types'; // Importa la interfaz Estudiante
 
 // Define las propiedades que recibirá el componente
 interface EstudianteFormProps {

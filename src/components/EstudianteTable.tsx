@@ -1,6 +1,6 @@
 // src/components/EstudianteTable.tsx
 import React from 'react'; // Importa React
-import { Estudiante } from '../Types'; // Importa la interfaz Estudiante
+import { Estudiante } from '../types'; // Importa la interfaz Estudiante
 
 // Define las propiedades que recibirá el componente
 interface EstudianteTableProps {
