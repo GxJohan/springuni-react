@@ -30,7 +30,7 @@ const App: React.FC = () => {
   // Función para manejar la creación de un nuevo estudiante
   const manejarCrear = async (escuela: Omit<Escuela, 'id'>) => {
     try {
-      await axios.post('/api/escuelas', escuelas); // Hace una solicitud POST para crear un nuevo estudiante
+      await axios.post('/api/escuelas', escuela); // Hace una solicitud POST para crear un nuevo estudiante
       obtenerEscuelas(); // Actualiza la lista de estudiantes después de la creación
     } catch (error) {
       console.error('Error al crear escuela:', error); // Muestra un error en la consola si falla la solicitud
